@@ -57,7 +57,7 @@
   },
   "sideEffects": false,
   "peerDependencies": {
-    "@arraypress/waveform-bar": "^1.3.1",
+    "@arraypress/waveform-bar": "^1.10.0",
     "@arraypress/waveform-player": "^1.7.2",
     "vue": "^3.5.0"
   },
@@ -70,7 +70,7 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@arraypress/waveform-bar": "^1.6.0",
+    "@arraypress/waveform-bar": "^1.10.0",
     "@vue/test-utils": "^2.4.6",
     "jsdom": "^29.1.1",
     "tsup": "^8.5.1",
