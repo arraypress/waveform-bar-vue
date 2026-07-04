@@ -1,6 +1,6 @@
 {
   "name": "@arraypress/waveform-bar-vue",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Vue 3 components for @arraypress/waveform-bar — singleton mount with config-as-props and a polymorphic play/queue trigger.",
   "type": "module",
   "main": "./dist/index.cjs",
