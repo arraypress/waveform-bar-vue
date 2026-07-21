@@ -49,6 +49,14 @@ describe('WaveformBar (Vue)', () => {
 		expect(init).toHaveBeenCalledWith(config);
 	});
 
+	it('forwards crossOrigin through to init() verbatim', async () => {
+		const config = { crossOrigin: 'anonymous' as const };
+		mount(WaveformBar, { props: { config } });
+		await flushPromises();
+		expect(init).toHaveBeenCalledTimes(1);
+		expect(init).toHaveBeenCalledWith(config);
+	});
+
 	it('re-inits when the config shape changes', async () => {
 		const wrapper = mount(WaveformBar, { props: { config: { continuous: true } } });
 		await flushPromises();
